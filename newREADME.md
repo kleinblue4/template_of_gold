@@ -103,9 +103,9 @@ Dear 瑞 or 硕 ：
 
 - 第一步：首先用 VScode 打开一个文件夹，在终端里面,cd 到当前文件夹的目录，然后输入 git init 创建一个本地仓库，
 
-- 第二步：输入 git clone https://github.com/kleinblue4/template_of_gold.git
+- 第二步：输入 git clone https://github.com/kleinblue4/template_of_gold.git, 然后再cd到克隆的项目文件夹里面
 
-- 第三步：git add filename 将你要上传的文件 add 到缓存
+- 第三步：git add filename 将你要上传的文件 add 到缓存，比如
 
 - 第四步：git commit -m message 将缓存里面的文件提交到本地仓库，建议写好 message，如 git commit -m 图论板子
 
@@ -114,5 +114,5 @@ Dear 瑞 or 硕 ：
 - 第六步：git remote add origin https://github.com/kleinblue4/template_of_gold.git
 
 - 第七步：git push -u origin main
-  **注意：** 此处大概率会有报错，参考[https://blog.csdn.net/weixin_45844049/article/details/123733065]进行修改，即在.git 文件夹下的 config 中 url 改成(_https://TOKEN@github.com/kleinblue4/template_of_gold.git_)的形式
+  **注意：** 此处可能会有报错，参考[https://blog.csdn.net/weixin_45844049/article/details/123733065]进行修改，即在.git 文件夹下的 config 中 url 改成(_https://TOKEN@github.com/kleinblue4/template_of_gold.git_)的形式
   即在 github.com 前面加上 TOKEN 和@，TOKEN 后续发在群里，
